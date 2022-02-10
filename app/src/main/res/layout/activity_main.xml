@@ -1,0 +1,48 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/icon"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NAME:" />
+
+    <EditText
+        android:id="@+id/username"
+        android:drawableLeft="@drawable/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your username"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"/>
+    <EditText
+        android:id="@+id/password"
+
+        android:drawableLeft="@drawable/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Enter your password"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:background="@drawable/buttonstyle"
+
+        />
+<androidx.appcompat.widget.AppCompatButton
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="GO TO REGISTER"
+    android:background="@drawable/buttonstyle"
+    android:layout_margin="20dp"/>
+
+</LinearLayout>
